@@ -6,27 +6,27 @@ const links = [
   {
     label: 'Settings',
     path: '/settings',
-    icon: <IconHome width={6} height={6} />
+    icon: <IconHome width='w-6' height='h-6' />
   },
   {
     label: 'Your activity',
     path: '/activity',
-    icon: <IconHome width={6} height={6} />
+    icon: <IconHome width='w-6' height='h-6' />
   },
   {
     label: 'Saved',
     path: '/saved',
-    icon: <IconHome width={6} height={6} />
+    icon: <IconHome width='w-6' height='h-6' />
   },
   {
     label: 'Switch appearance',
     path: '/switch-mode',
-    icon: <IconHome width={6} height={6} />
+    icon: <IconHome width='w-6' height='h-6' />
   },
   {
     label: 'Report a problem',
     path: '/report',
-    icon: <IconHome width={6} height={6} />
+    icon: <IconHome width='w-6' height='h-6' />
   }
 ]
 
@@ -34,12 +34,12 @@ const separatedLinks = [
   {
     label: 'Settings',
     path: '/settings',
-    icon: <IconHome width={6} height={6} />
+    icon: <IconHome width='w-6' height='h-6' />
   },
   {
     label: 'Log out',
     path: '/sign-in',
-    icon: <IconHome width={6} height={6} />
+    icon: <IconHome width='w-6' height='h-6' />
   }
 ]
 

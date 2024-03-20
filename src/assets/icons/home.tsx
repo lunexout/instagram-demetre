@@ -1,11 +1,11 @@
 type Props = {
-  width?: number
-  height?: number
+  width?: string
+  height?: string
 }
 
-export const IconHome = ({ width = 8, height = 8 }: Props) => (
+export const IconHome = ({ width = 'w-8', height = 'h-8' }: Props) => (
   <svg
-    className={`w-${width} h-${height} text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white`}
+    className={`${width} ${height} text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white`}
     aria-hidden='true'
     xmlns='http://www.w3.org/2000/svg'
     fill='currentColor'

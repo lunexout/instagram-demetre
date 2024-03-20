@@ -11,7 +11,8 @@ export default {
       divider: 'rgb(219,219,219)',
       link: 'rgb(38,79,124)',
       paper: 'white',
-      error: 'rgb(237,76,88)'
+      error: 'rgb(237,76,88)',
+      'modal-background': 'rgb(25,25,25)'
     },
     extend: {}
   },
