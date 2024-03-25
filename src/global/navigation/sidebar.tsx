@@ -19,7 +19,7 @@ export const Sidebar = ({ children }: Props) => {
           <div>
             <p className='text-black text-2xl font-bold p-6 pb-8 '>Instagram</p>
             <ul className='space-y-2 font-medium px-4'>
-              {new Array(3).fill(null).map((_, index) => (
+              {new Array(8).fill(null).map((_, index) => (
                 <li
                   key={`navigation-${index}`}
                   className='p-2 rounded-xl hover:bg-secondary-hover'

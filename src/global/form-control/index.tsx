@@ -32,7 +32,12 @@ export const FormControl = <T extends FieldValues>({
       )}
       {children}
       {error ? (
-        <p className='text-error text-xs'>{error.message}</p>
+        <>
+          <p className='text-error text-xs'>{error.message}</p>
+          <div className='absolute right-[8px] top-1/4 -translate-y-1/4 w-[22px] h-[22px] rounded-full border border-error text-error flex justify-center items-center'>
+            X
+          </div>
+        </>
       ) : (
         helperText && <p className='text-base ml-4'>{helperText}</p>
       )}

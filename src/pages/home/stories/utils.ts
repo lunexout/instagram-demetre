@@ -49,10 +49,43 @@ export const stories: Array<Story> = [
   },
   {
     author: {
+      username: 'Gvanca',
+      profilePicture:
+        'https://media.licdn.com/dms/image/D4D08AQE0CXu4hnoe7g/croft-frontend-shrinkToFit1024/0/1646754728586?e=2147483647&v=beta&t=ADkOVwOwmP-4rCH4y0g2_OBFlsszl01TpQPhCgt5SSc'
+    },
+    stories: ['https://picsum.photos/500']
+  },
+  {
+    author: {
       username: 'Gio',
       profilePicture: 'https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg'
     },
+    stories: ['https://picsum.photos/500']
+  },
+  {
+    author: {
+      username: 'Temo',
+      profilePicture: 'https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg'
+    },
+    stories: [
+      'https://picsum.photos/500',
+      'https://picsum.photos/500',
+      'https://picsum.photos/500'
+    ]
+  },
+  {
+    author: {
+      username: 'Zura',
+      profilePicture: 'https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg'
+    },
     stories: ['https://picsum.photos/500', 'https://picsum.photos/500']
+  },
+  {
+    author: {
+      username: 'Gela',
+      profilePicture: 'https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg'
+    },
+    stories: ['https://picsum.photos/500']
   }
 ]
 

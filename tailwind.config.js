@@ -12,7 +12,8 @@ export default {
       link: 'rgb(38,79,124)',
       paper: 'white',
       error: 'rgb(237,76,88)',
-      'modal-background': 'rgb(25,25,25)'
+      'modal-background': 'rgb(25,25,25)',
+      gray: 'rgb(115, 115, 115)'
     },
     extend: {}
   },

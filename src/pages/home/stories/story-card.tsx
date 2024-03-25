@@ -6,9 +6,9 @@ type Props = {
 
 export const StoryCard = ({ username, profilePicture, onStoryOpen }: Props) => {
   return (
-    <div className='flex flex-col gap-1 justify-center items-center'>
+    <div className='flex flex-col gap-1 justify-center items-center w-[66px]'>
       <div
-        className='rounded-full p-[0.5px] border border-primary'
+        className='rounded-full p-[1px] border-2 border-primary'
         onClick={onStoryOpen}
       >
         <img
